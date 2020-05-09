@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- saved from url=(0028)http://127.0.0.1/gis/app.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>.mq-logo-control{margin-left: 2px !important;margin-bottom: 5px !important;}.mq-logo-control img{ position: relative;}</style><style>.leaflet-bottom.leaflet-right .mq-attribution-control{background:#eaeaea;bottom:-2px;color:#777777;height:13px;margin:0;padding:0px 5px;text-align:right;text-transform:uppercase;font-weight:normal;font-family:sans-serif;font-size:9px;white-space:nowrap;margin-bottom:2px;letter-spacing:.5px;} .leaflet-bottom.leaflet-right .mq-attribution-control a{color:inherit;font-weight:700;text-decoration:underline;}</style>
+    
+    <title>Travel.ba</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./Travel.ba_files/leaflet.css">
+    <link rel="stylesheet" href="./Travel.ba_files/leaflet-routing-machine.css">
+    <link rel="stylesheet" type="text/css" href="./Travel.ba_files/css">
+    <link rel="stylesheet" type="text/css" href="./Travel.ba_files/css(1)">
+    <link rel="stylesheet" href="./Travel.ba_files/leaflet(1).css">
+    <link href="./Travel.ba_files/style.css" type="text/css" rel="stylesheet">
+    <link href="./Travel.ba_files/styleMap.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="./Travel.ba_files/bootstrap.min.css">
+    <script src="./Travel.ba_files/leaflet.js.download"></script>
+    <script src="./Travel.ba_files/jquery.min.js.download"></script>
+    <script src="./Travel.ba_files/js"></script>
+  <script src="./Travel.ba_files/mq-map.js.download"></script>
+    <script src="./Travel.ba_files/mq-geocoding.js.download"></script>
+    <script src="./Travel.ba_files/bootstrap.min.js.download"></script>
+    <style>
+
+    </style>
+   </head>
+   <body>
+    
+   <div class="col-lg-2" id="menu">
+     <div class="col-lg-12" id="logo">
+    Travel.ba<hr></div>
+    <form action="http://127.0.0.1/action_page.php">
+    <label for="cijenamin">Cijena</label>
+    <input type="text" class="halfw" id="cijenamin" name="cijenamin" placeholder="Min">
+    <input type="text" class="halfw" id="cijenamax" name="cijenamax" placeholder="Max">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+   </div>
+   <div class="col-lg-10 leaflet-container leaflet-fade-anim" id="map" tabindex="0">hello<div class="leaflet-map-pane" style="transform: translate3d(0px, -24px, 0px);"><div class="leaflet-tile-pane"><div class="leaflet-layer"><div class="leaflet-tile-container"></div><div class="leaflet-tile-container leaflet-zoom-animated"><img class="leaflet-tile leaflet-tile-loaded" src="./Travel.ba_files/372.png" style="height: 256px; width: 256px; left: 336px; top: 91px;"><img class="leaflet-tile leaflet-tile-loaded" src="./Travel.ba_files/372(1).png" style="height: 256px; width: 256px; left: 592px; top: 91px;"><img class="leaflet-tile leaflet-tile-loaded" src="./Travel.ba_files/373.png" style="height: 256px; width: 256px; left: 336px; top: 347px;"><img class="leaflet-tile leaflet-tile-loaded" src="./Travel.ba_files/373(1).png" style="height: 256px; width: 256px; left: 592px; top: 347px;"><img class="leaflet-tile leaflet-tile-loaded" src="./Travel.ba_files/372(2).png" style="height: 256px; width: 256px; left: 848px; top: 91px;"><img class="leaflet-tile leaflet-tile-loaded" src="./Travel.ba_files/374.png" style="height: 256px; width: 256px; left: 592px; top: 603px;"><img class="leaflet-tile leaflet-tile-loaded" src="./Travel.ba_files/371.png" style="height: 256px; width: 256px; left: 592px; top: -165px;"><img class="leaflet-tile leaflet-tile-loaded" src="./Travel.ba_files/374(1).png" style="height: 256px; width: 256px; left: 336px; top: 603px;"><img class="leaflet-tile leaflet-tile-loaded" src="./Travel.ba_files/371(1).png" style="height: 256px; width: 256px; left: 336px; top: -165px;"><img class="leaflet-tile leaflet-tile-loaded" src="./Travel.ba_files/373(2).png" style="height: 256px; width: 256px; left: 80px; top: 347px;"><img class="leaflet-tile leaflet-tile-loaded" src="./Travel.ba_files/372(3).png" style="height: 256px; width: 256px; left: 80px; top: 91px;"><img class="leaflet-tile leaflet-tile-loaded" src="./Travel.ba_files/373(3).png" style="height: 256px; width: 256px; left: 848px; top: 347px;"><img class="leaflet-tile leaflet-tile-loaded" src="./Travel.ba_files/371(2).png" style="height: 256px; width: 256px; left: 80px; top: -165px;"><img class="leaflet-tile leaflet-tile-loaded" src="./Travel.ba_files/371(3).png" style="height: 256px; width: 256px; left: 848px; top: -165px;"><img class="leaflet-tile leaflet-tile-loaded" src="./Travel.ba_files/374(2).png" style="height: 256px; width: 256px; left: 848px; top: 603px;"><img class="leaflet-tile leaflet-tile-loaded" src="./Travel.ba_files/374(3).png" style="height: 256px; width: 256px; left: 80px; top: 603px;"><img class="leaflet-tile leaflet-tile-loaded" src="./Travel.ba_files/373(4).png" style="height: 256px; width: 256px; left: 1104px; top: 347px;"><img class="leaflet-tile leaflet-tile-loaded" src="./Travel.ba_files/372(4).png" style="height: 256px; width: 256px; left: 1104px; top: 91px;"><img class="leaflet-tile leaflet-tile-loaded" src="./Travel.ba_files/372(5).png" style="height: 256px; width: 256px; left: -176px; top: 91px;"><img class="leaflet-tile leaflet-tile-loaded" src="./Travel.ba_files/373(5).png" style="height: 256px; width: 256px; left: -176px; top: 347px;"><img class="leaflet-tile leaflet-tile-loaded" src="./Travel.ba_files/371(4).png" style="height: 256px; width: 256px; left: 1104px; top: -165px;"><img class="leaflet-tile leaflet-tile-loaded" src="./Travel.ba_files/374(4).png" style="height: 256px; width: 256px; left: -176px; top: 603px;"><img class="leaflet-tile leaflet-tile-loaded" src="./Travel.ba_files/371(5).png" style="height: 256px; width: 256px; left: -176px; top: -165px;"><img class="leaflet-tile leaflet-tile-loaded" src="./Travel.ba_files/374(5).png" style="height: 256px; width: 256px; left: 1104px; top: 603px;"></div></div></div><div class="leaflet-objects-pane"><div class="leaflet-shadow-pane"></div><div class="leaflet-overlay-pane"></div><div class="leaflet-marker-pane"></div><div class="leaflet-popup-pane"></div></div></div><div class="leaflet-control-container"><div class="leaflet-top leaflet-left"><div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in" href="http://127.0.0.1/gis/app.php#" title="Zoom in">+</a><a class="leaflet-control-zoom-out" href="http://127.0.0.1/gis/app.php#" title="Zoom out">-</a></div></div><div class="leaflet-top leaflet-right"></div><div class="leaflet-bottom leaflet-left"></div><div class="leaflet-bottom leaflet-right"><div class="leaflet-control-attribution leaflet-control"><a href="http://leafletjs.com/" title="A JS library for interactive maps">Leaflet</a> | © <a href="http://osm.org/copyright">OpenStreetMap</a> contributors</div></div></div></div>
+
+
+    
+   
+   <script type="text/javascript">
+     
+var map = L.map('map').setView([43.85, 18.25], 10);
+      
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+      }).addTo(map);
+      
+map.options.maxZoom = 10;
+   </script>
+  </body></html>
