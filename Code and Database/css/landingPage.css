@@ -1,0 +1,91 @@
+body{
+  background-image: url("");
+ background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;   
+}
+  .affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+  #logoheader{
+    background-color: transparent !important;
+        text-align: center;
+  }
+  #about{
+background-color: transparent;
+  }
+  #main{
+    background-color: white;
+    margin-top: 2%;
+    padding-bottom: 20px;
+  }
+  .navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-inverse {
+  text-align: center;
+  border: none;
+}
+.navbar-inverse {
+
+    border-color: transparent;
+}
+#logo{
+  font-family: Cinzel;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+h1, p{
+  display: inline;
+}
+#cinzel{
+   font-family: Cinzel;
+   font-size: 20px;
+}
+#bosnia{
+  width: 100%;
+}
+
+
+.mybutton{
+border-radius: 10px;
+height: 50px;
+margin: 5px;
+text-align:  center;
+color: white;
+  line-height: 50px;
+  font-size: 18px;
+}
+#help{
+  background-color: #1f3974;
+}
+
+#query{
+  background-color: #ce1c3e;
+}
+#map {
+    height: 100%;
+   
+}
+
+.leaflet-routing-alt, .leaflet-routing-geocoders, .leaflet-routing-error {
+
+    display: none;
+}
+
+.leaflet-routing-container, .leaflet-routing-error {
+    display: none;
+}
+.leaflet-top, .leaflet-left{
+  display: none;
+}

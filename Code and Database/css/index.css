@@ -1,0 +1,240 @@
+         body{
+         min-width: 1300px;
+         }
+         #upitButton, #upitButton1, #ruta {
+         background-color: rgb(242, 146, 0);
+         width: 100%;
+         border: 1px solid white;
+         margin-bottom: 5px;
+         }
+         #vise{
+         width: 100%;
+         border: none;
+         margin-bottom: 5px;
+         background-color: transparent;
+         font-style: italic;
+         font-size: 12px;
+         }
+         #ruta{
+         background-color: #e27070;
+         }
+         #upitButton1{
+         display: none;
+         padding: 2px;
+         border: none;
+         border-radius: 0px;
+         }
+         .map {
+         width: 700px;
+         height: 100%;
+         }
+         #map{
+         height: 100%;
+         }
+         .leaflet-routing-alt, .leaflet-routing-geocoders, .leaflet-routing-error {
+         display: none;
+         }
+         .leaflet-routing-container, .leaflet-routing-error {
+         display: none;
+         }
+         #logo{
+         padding-top: 2%;
+         width: 100%;
+         image-rendering: -webkit-optimize-contrast;
+         margin-bottom: 3%;
+         }
+         .mybutton{
+         color: #0d0d0d;
+         height: 40px;
+         line-height: 40px;
+         font-family: Cinzel;
+         }
+         #help{
+         }
+         #query{
+         background-color: #737373;
+         color: white;
+         }
+         #info{
+         background-color: white;
+         height: 400px;
+         } 
+         #menu{
+         padding: 0px;
+         overflow-y: scroll;
+         height: 100%;
+         }
+         #slidecontainer {
+         width: 100%;
+         }
+         .slider {
+         -webkit-appearance: none;
+         width: 100%;
+         height: 25px;
+         background: white;
+         outline: none;
+         -webkit-transition: .2s;
+         transition: opacity .2s;
+         }
+         .slider:hover {
+         opacity: 1;
+         }
+         .slider::-webkit-slider-thumb {
+         -webkit-appearance: none;
+         appearance: none;
+         width: 25px;
+         height: 25px;
+         background: #f78f8f;
+         cursor: pointer;
+         }
+         .slider::-moz-range-thumb {
+         width: 25px;
+         height: 25px;
+         background: #f78f8f;
+         cursor: pointer;
+         }
+         #price{
+         width: 50%;
+         background-color: transparent;
+         color: white;
+         border: none;
+         }
+         .whitetext{
+         color: white;
+         padding:0px;
+         text-align: left;
+         font-size: 14px;
+         }
+         #upit{
+         background-color: #2b3c58;
+         font-family: 'Julius Sans One';
+         color: white;
+         text-align: center;
+         font-size: 18px;
+         margin-top: 1%;
+         padding-top: 2%;
+         }
+         body{
+         background-color: #24344b;
+         }
+         hr{
+         margin: 2%;
+         }
+         .mypadding{
+         margin-top:5%;
+         }
+         select {
+         width: 100%;
+         padding: 1px 11px;
+         border-radius: 0px;
+         color: #24344b;
+         font-size: 14px;
+         }
+         #send{
+         background-color: #f78f8f;
+         border-radius: 0px;
+         border: 0px;
+         height: 30px;
+         margin-top:10px;
+         }
+         #black{
+         color: black;
+         }
+         #ll{
+         display: none;
+         }
+         .none{
+         display: none;
+         }
+         #slikastanice{
+         width: 200px;
+         border: 5px solid white;
+         }
+         #popup{
+         font-family: 'Julius Sans One';
+         }
+         .mypopup.leaflet-popup-content-wrapper{
+         background-color: gray;
+         opacity: 0.9;
+         }
+         .mypopup.leaflet-popup-tip {
+         background: red;
+         }
+         .leaflet-popup-content-wrapper, .leaflet-popup-tip {
+         background: #24344b;
+         color: white;
+         box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+         }
+         .leaflet-popup-tip-container {
+         margin: 0 0; 
+         width: 40px;
+         height: 20px;
+         position: relative;
+         overflow: hidden;
+         }
+         .leaflet-popup-content-wrapper {
+         padding: 1px;
+         text-align: left;
+         border-radius: 0px; 
+         }
+         #two{
+         display: none;
+         }
+         #podaci{
+         text-align: left;
+         font-size: 14px;
+         }
+         #informacije, #informacije1{
+         background-color: #f3f2f2;
+         color: gray;
+         text-align: left;
+         font-size: 14px;
+         /* opacity: 0.6; */
+         border: 1px solid #c7434340;
+         padding:10px;        
+         margin-bottom: 10px;
+         }
+         #informacije1{
+         background-color: #8c898917;
+         padding: 5px;
+         color: gray;
+         text-align: center;
+         }
+         a{
+         color: gray;
+         }
+         #slicice{
+         width: 20%;
+         display: inline-block;
+         margin-right: 5px;
+         }
+         #red #red1{
+         background-color: #eae8e8;
+         padding:2px;
+         margin-bottom: 3px;
+         }
+         #red1{
+         overflow-x: scroll;
+         }
+         #slikaS{
+         text-align: center;
+         margin-top: 5px;
+         }
+         #opis{
+         text-align: left;
+         font-family: helvetica;
+         font-size: 12.5px;
+         }
+         .marginbottom{
+         display: block;
+         }
+         #odredista{
+         border: none;
+         background-color: transparent;
+         font-style: italic;
+         margin-top: 5px;
+         }
+         #premabih{
+         max-height: 100px;
+         overflow-y: auto;
+         }
